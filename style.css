@@ -1,0 +1,191 @@
+.normal
+{
+font-weight: normal;
+}
+
+.bold
+{
+font-weight: bold;
+} 
+
+
+h1
+{ 
+	font-size: 18pt;
+	color: #333399; 
+	font-family: verdana; 
+}
+
+
+h3
+{ 
+	font-size: 10pt;
+	color: #333399; 
+	font-family: verdana; 
+}
+
+h4
+{ 
+	font-size: 10pt;
+	color: #666666; 
+	font-family: verdana; 
+ 	margin-right: 50px; 
+	margin-left: 50px;
+}
+
+
+a
+{ 
+	color: #3333cc; 
+	font-family: Verdana;  
+	font-size: 10pt;
+	text-decoration : none;
+}
+
+a:hover      
+{ 
+	font-family: Verdana; 
+	color: #336699; 
+	font-size: 10pt;
+	text-decoration: underline; 
+}
+
+
+
+body         
+{ 
+	color: #666666; 
+	font-family: verdana; 
+    font-weight: normal;
+	font-size: 10pt; 
+
+    background-color : #ffffff;
+
+	background-repeat : no-repeat;
+	background-position : 100% 100%; 
+	background-attachment : fixed;
+ 
+ 	margin-right: 50px; 
+	margin-left: 50px;
+}
+
+p 
+{ 
+	color: #666666; 
+	font-family: verdana; 
+	font-size: 10pt;
+
+	margin-right: 50px; 
+	margin-left: 50px;	 
+}
+
+ul
+{
+	color: #666666; 
+	font-family: verdana; 
+	font-size: 10pt;	 
+	margin-left: 10px;	 
+	margin-right: 50px; 
+}
+
+
+
+
+/* Image */
+img.MainImage
+{
+  display: inline;
+  float: right;
+  margin: 0px 10px auto auto;
+}
+
+
+
+/* Position */
+#position{
+  clear: left;
+  margin-top: 16px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+
+/* Tabs */
+#header {
+  float:left;
+  width:100%;
+  background:#ffffff;
+/*#DAE0D2 url("bg.gif") repeat-x bottom;*/
+  font-size:12px;
+  line-height:normal;
+}
+
+#header ul {
+  text-align: left;
+  margin: 1em 0 1em 0;
+  font-weight: bold;
+  border-bottom: 2px solid #999999;
+  padding: 3px 10px 3px 10px;
+  list-style:none;
+}
+
+#header li {
+  display:inline;
+}
+
+#header li a {
+  padding: 3px 4px;
+  border: 2px solid #999999;
+  background-color: #dddddd;
+  color: #666666; 
+  margin-right: 0px; 
+  text-decoration: none;
+  border-bottom: none;
+}
+
+#header #selected a {
+  background-color: #fff;
+  position: relative;
+  top: 1px;
+  padding-top: 4px;
+  border-bottom: 2px solid #fff;
+}
+
+
+
+/* Separator */
+#separate
+{
+    clear: both;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+
+/* Content */
+#content{
+  clear: left;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+
+#content p 
+{ 
+	font-size: 10pt;
+    font-weight: lighter;
+	color: #666666; 
+	margin-right: 50px; 
+	margin-left: 50px;	 
+}
+
+#content li
+{ 
+	font-size: 10pt;
+	color: #666666; 
+	margin-bottom: 1em; 
+	margin-right: 50px; 
+	margin-left: 10px;	 
+    list-style: none;
+}
+
